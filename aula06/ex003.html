@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            font: normal 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+
+        // Soma dos números no JavaScript
+
+        // Devemos realizar sempre a conversão dos números pois quando digitamos um valor dentro do window.prompt ele sempre armazenará como uma string, e se não convertermos os valores para realizar a soma, o cálculo não dará certo.  
+
+        //Number.parseInt --> Conversão para número inteiro
+        //Number.parseFloat --> Conversão para número real
+        //Se colocarmos apenas Number, ele faz automáticamente os calculos sem precisar dizer se é float ou inteiro. 
+
+        // Convertendo para string
+        // String(n)
+        //n.toString()
+
+        var n1 = Number(window.prompt('Digite um número: ')) 
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Se quiser transformar o resultado final em string é só utilizar os dois comandinhos que estão acima. Além disso, para utilizar esse método de ${} tem que ter crase.  
+    </script>
+</body>
+</html>
